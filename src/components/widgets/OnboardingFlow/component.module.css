@@ -1,0 +1,28 @@
+.onboardingFlow {
+  padding: 16px;
+  max-width: 100%;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin: 0 auto;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+}
+
+.content {
+  border-radius: 8px;
+  border: 1px solid #cccccc;
+}
+
+.content > * {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content > *:last-child {
+  border-bottom: none;
+}
+
+@media (min-width: 1024px) {
+  .onboardingFlow {
+    width: 820px;
+  }
+}
